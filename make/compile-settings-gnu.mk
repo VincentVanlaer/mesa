@@ -3,8 +3,6 @@ FLAGS_CODE_SANITY := \
   -Wextra \
   -Wno-unused-label \
   -Wno-unused-parameter \
-  -fstack-protector-all \
-  -fstack-clash-protection \
   -fcheck=bounds \
   -D_FORTIFY_SOURCE=2 \
   -fPIC
