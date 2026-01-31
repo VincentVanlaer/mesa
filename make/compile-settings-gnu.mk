@@ -6,7 +6,6 @@ FLAGS_CODE_SANITY := \
   -fstack-protector-all \
   -fstack-clash-protection \
   -fcheck=bounds \
-  -D_FORTIFY_SOURCE=2 \
   -fPIC
 FFLAGS_FP_SANITY := -finit-derived
 ifeq ($(WITH_FPE_CHECKS),yes)
