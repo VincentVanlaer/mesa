@@ -5,7 +5,6 @@ FLAGS_CODE_SANITY := \
   -Wno-unused-parameter \
   -fstack-protector-all \
   -fstack-clash-protection \
-  -fcheck=bounds \
   -D_FORTIFY_SOURCE=2 \
   -fPIC
 FFLAGS_FP_SANITY := -finit-derived
